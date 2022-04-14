@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import FeedbackContext from '../context/FeedbackContext';
 import { useContext } from 'react';
 
