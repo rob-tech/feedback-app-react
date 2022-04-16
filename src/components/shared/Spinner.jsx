@@ -1,7 +1,6 @@
-import React from 'react';
 import spinner from '../assets/spinner.gif';
 
-function Spinner(props) {
+function Spinner() {
   return (
     <img
       src={spinner}
@@ -10,7 +9,5 @@ function Spinner(props) {
     />
   );
 }
-
-Spinner.propTypes = {};
 
 export default Spinner;
